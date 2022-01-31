@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECDBB4727A7EDF0000677EF /* SweetHomeMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB4627A7EDF0000677EF /* SweetHomeMusicApp.swift */; };
+		CECDBB4927A7EDF0000677EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB4827A7EDF0000677EF /* ContentView.swift */; };
+		CECDBB4B27A7EDF1000677EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDBB4A27A7EDF1000677EF /* Assets.xcassets */; };
+		CECDBB4E27A7EDF1000677EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDBB4D27A7EDF1000677EF /* Preview Assets.xcassets */; };
+		CECDBB5827A7EDF1000677EF /* SweetHomeMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB5727A7EDF1000677EF /* SweetHomeMusicTests.swift */; };
+		CECDBB6227A7EDF1000677EF /* SweetHomeMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB6127A7EDF1000677EF /* SweetHomeMusicUITests.swift */; };
+		CECDBB6427A7EDF1000677EF /* SweetHomeMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB6327A7EDF1000677EF /* SweetHomeMusicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECDBB5427A7EDF1000677EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECDBB3B27A7EDF0000677EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECDBB4227A7EDF0000677EF;
+			remoteInfo = SweetHomeMusic;
+		};
+		CECDBB5E27A7EDF1000677EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECDBB3B27A7EDF0000677EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECDBB4227A7EDF0000677EF;
+			remoteInfo = SweetHomeMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECDBB4327A7EDF0000677EF /* SweetHomeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHomeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECDBB4627A7EDF0000677EF /* SweetHomeMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeMusicApp.swift; sourceTree = "<group>"; };
+		CECDBB4827A7EDF0000677EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CECDBB4A27A7EDF1000677EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECDBB4D27A7EDF1000677EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CECDBB5327A7EDF1000677EF /* SweetHomeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHomeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECDBB5727A7EDF1000677EF /* SweetHomeMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeMusicTests.swift; sourceTree = "<group>"; };
+		CECDBB5D27A7EDF1000677EF /* SweetHomeMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHomeMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECDBB6127A7EDF1000677EF /* SweetHomeMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeMusicUITests.swift; sourceTree = "<group>"; };
+		CECDBB6327A7EDF1000677EF /* SweetHomeMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECDBB4027A7EDF0000677EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB5027A7EDF1000677EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB5A27A7EDF1000677EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECDBB3A27A7EDF0000677EF = {
+			isa = PBXGroup;
+			children = (
+				CECDBB4527A7EDF0000677EF /* SweetHomeMusic */,
+				CECDBB5627A7EDF1000677EF /* SweetHomeMusicTests */,
+				CECDBB6027A7EDF1000677EF /* SweetHomeMusicUITests */,
+				CECDBB4427A7EDF0000677EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECDBB4427A7EDF0000677EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBB4327A7EDF0000677EF /* SweetHomeMusic.app */,
+				CECDBB5327A7EDF1000677EF /* SweetHomeMusicTests.xctest */,
+				CECDBB5D27A7EDF1000677EF /* SweetHomeMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECDBB4527A7EDF0000677EF /* SweetHomeMusic */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBB4627A7EDF0000677EF /* SweetHomeMusicApp.swift */,
+				CECDBB4827A7EDF0000677EF /* ContentView.swift */,
+				CECDBB4A27A7EDF1000677EF /* Assets.xcassets */,
+				CECDBB4C27A7EDF1000677EF /* Preview Content */,
+			);
+			path = SweetHomeMusic;
+			sourceTree = "<group>";
+		};
+		CECDBB4C27A7EDF1000677EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBB4D27A7EDF1000677EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECDBB5627A7EDF1000677EF /* SweetHomeMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBB5727A7EDF1000677EF /* SweetHomeMusicTests.swift */,
+			);
+			path = SweetHomeMusicTests;
+			sourceTree = "<group>";
+		};
+		CECDBB6027A7EDF1000677EF /* SweetHomeMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECDBB6127A7EDF1000677EF /* SweetHomeMusicUITests.swift */,
+				CECDBB6327A7EDF1000677EF /* SweetHomeMusicUITestsLaunchTests.swift */,
+			);
+			path = SweetHomeMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECDBB4227A7EDF0000677EF /* SweetHomeMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDBB6727A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusic" */;
+			buildPhases = (
+				CECDBB3F27A7EDF0000677EF /* Sources */,
+				CECDBB4027A7EDF0000677EF /* Frameworks */,
+				CECDBB4127A7EDF0000677EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetHomeMusic;
+			productName = SweetHomeMusic;
+			productReference = CECDBB4327A7EDF0000677EF /* SweetHomeMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECDBB5227A7EDF1000677EF /* SweetHomeMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDBB6A27A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusicTests" */;
+			buildPhases = (
+				CECDBB4F27A7EDF1000677EF /* Sources */,
+				CECDBB5027A7EDF1000677EF /* Frameworks */,
+				CECDBB5127A7EDF1000677EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECDBB5527A7EDF1000677EF /* PBXTargetDependency */,
+			);
+			name = SweetHomeMusicTests;
+			productName = SweetHomeMusicTests;
+			productReference = CECDBB5327A7EDF1000677EF /* SweetHomeMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECDBB5C27A7EDF1000677EF /* SweetHomeMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECDBB6D27A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusicUITests" */;
+			buildPhases = (
+				CECDBB5927A7EDF1000677EF /* Sources */,
+				CECDBB5A27A7EDF1000677EF /* Frameworks */,
+				CECDBB5B27A7EDF1000677EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECDBB5F27A7EDF1000677EF /* PBXTargetDependency */,
+			);
+			name = SweetHomeMusicUITests;
+			productName = SweetHomeMusicUITests;
+			productReference = CECDBB5D27A7EDF1000677EF /* SweetHomeMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECDBB3B27A7EDF0000677EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CECDBB4227A7EDF0000677EF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CECDBB5227A7EDF1000677EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CECDBB4227A7EDF0000677EF;
+					};
+					CECDBB5C27A7EDF1000677EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CECDBB4227A7EDF0000677EF;
+					};
+				};
+			};
+			buildConfigurationList = CECDBB3E27A7EDF0000677EF /* Build configuration list for PBXProject "SweetHomeMusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECDBB3A27A7EDF0000677EF;
+			productRefGroup = CECDBB4427A7EDF0000677EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECDBB4227A7EDF0000677EF /* SweetHomeMusic */,
+				CECDBB5227A7EDF1000677EF /* SweetHomeMusicTests */,
+				CECDBB5C27A7EDF1000677EF /* SweetHomeMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECDBB4127A7EDF0000677EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDBB4E27A7EDF1000677EF /* Preview Assets.xcassets in Resources */,
+				CECDBB4B27A7EDF1000677EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB5127A7EDF1000677EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB5B27A7EDF1000677EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECDBB3F27A7EDF0000677EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDBB4927A7EDF0000677EF /* ContentView.swift in Sources */,
+				CECDBB4727A7EDF0000677EF /* SweetHomeMusicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB4F27A7EDF1000677EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDBB5827A7EDF1000677EF /* SweetHomeMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECDBB5927A7EDF1000677EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECDBB6427A7EDF1000677EF /* SweetHomeMusicUITestsLaunchTests.swift in Sources */,
+				CECDBB6227A7EDF1000677EF /* SweetHomeMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECDBB5527A7EDF1000677EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECDBB4227A7EDF0000677EF /* SweetHomeMusic */;
+			targetProxy = CECDBB5427A7EDF1000677EF /* PBXContainerItemProxy */;
+		};
+		CECDBB5F27A7EDF1000677EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECDBB4227A7EDF0000677EF /* SweetHomeMusic */;
+			targetProxy = CECDBB5E27A7EDF1000677EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CECDBB6527A7EDF1000677EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECDBB6627A7EDF1000677EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECDBB6827A7EDF1000677EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SweetHomeMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = YBD79QB897;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECDBB6927A7EDF1000677EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SweetHomeMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = YBD79QB897;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECDBB6B27A7EDF1000677EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBD79QB897;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetHomeMusic.app/SweetHomeMusic";
+			};
+			name = Debug;
+		};
+		CECDBB6C27A7EDF1000677EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBD79QB897;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetHomeMusic.app/SweetHomeMusic";
+			};
+			name = Release;
+		};
+		CECDBB6E27A7EDF1000677EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBD79QB897;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetHomeMusic;
+			};
+			name = Debug;
+		};
+		CECDBB6F27A7EDF1000677EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBD79QB897;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Vovanok.SweetHomeMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetHomeMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECDBB3E27A7EDF0000677EF /* Build configuration list for PBXProject "SweetHomeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDBB6527A7EDF1000677EF /* Debug */,
+				CECDBB6627A7EDF1000677EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECDBB6727A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDBB6827A7EDF1000677EF /* Debug */,
+				CECDBB6927A7EDF1000677EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECDBB6A27A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDBB6B27A7EDF1000677EF /* Debug */,
+				CECDBB6C27A7EDF1000677EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECDBB6D27A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECDBB6E27A7EDF1000677EF /* Debug */,
+				CECDBB6F27A7EDF1000677EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECDBB3B27A7EDF0000677EF /* Project object */;
+}
