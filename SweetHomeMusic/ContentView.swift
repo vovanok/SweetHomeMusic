@@ -1,11 +1,6 @@
-//
-//  ContentView.swift
-//  SweetHomeMusic
-//
-//  Created by Vladimir Netkachev on 31.01.2022.
-//
-
 import SwiftUI
+import RxSwift
+import RxCocoa
 
 struct ContentView: View {
     var body: some View {

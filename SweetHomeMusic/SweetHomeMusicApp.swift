@@ -1,10 +1,3 @@
-//
-//  SweetHomeMusicApp.swift
-//  SweetHomeMusic
-//
-//  Created by Vladimir Netkachev on 31.01.2022.
-//
-
 import SwiftUI
 
 @main

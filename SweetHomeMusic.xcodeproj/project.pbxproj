@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6B94C1A40B3B3157828137 /* Pods_SweetHomeMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A535B7A0E2ACEE752C4BFDD /* Pods_SweetHomeMusic.framework */; };
+		CE69653127AD45DC00DCCAE3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE69653027AD45DC00DCCAE3 /* Podfile */; };
+		CE69653227AD45DC00DCCAE3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE69653027AD45DC00DCCAE3 /* Podfile */; };
 		CECDBB4727A7EDF0000677EF /* SweetHomeMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB4627A7EDF0000677EF /* SweetHomeMusicApp.swift */; };
 		CECDBB4927A7EDF0000677EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBB4827A7EDF0000677EF /* ContentView.swift */; };
 		CECDBB4B27A7EDF1000677EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDBB4A27A7EDF1000677EF /* Assets.xcassets */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A535B7A0E2ACEE752C4BFDD /* Pods_SweetHomeMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetHomeMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671B0726F96403A5B0795C34 /* Pods-SweetHomeMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHomeMusic.debug.xcconfig"; path = "Target Support Files/Pods-SweetHomeMusic/Pods-SweetHomeMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		88A7C96B4CA53260D27FF523 /* Pods-SweetHomeMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHomeMusic.release.xcconfig"; path = "Target Support Files/Pods-SweetHomeMusic/Pods-SweetHomeMusic.release.xcconfig"; sourceTree = "<group>"; };
+		CE69653027AD45DC00DCCAE3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CECDBB4327A7EDF0000677EF /* SweetHomeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHomeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECDBB4627A7EDF0000677EF /* SweetHomeMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetHomeMusicApp.swift; sourceTree = "<group>"; };
 		CECDBB4827A7EDF0000677EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6B94C1A40B3B3157828137 /* Pods_SweetHomeMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +79,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D45D11AE8E5AC9B54816041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A535B7A0E2ACEE752C4BFDD /* Pods_SweetHomeMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB49FAD8B884C40DE8630E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				671B0726F96403A5B0795C34 /* Pods-SweetHomeMusic.debug.xcconfig */,
+				88A7C96B4CA53260D27FF523 /* Pods-SweetHomeMusic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CECDBB3A27A7EDF0000677EF = {
 			isa = PBXGroup;
 			children = (
+				CE69653027AD45DC00DCCAE3 /* Podfile */,
 				CECDBB4527A7EDF0000677EF /* SweetHomeMusic */,
 				CECDBB5627A7EDF1000677EF /* SweetHomeMusicTests */,
 				CECDBB6027A7EDF1000677EF /* SweetHomeMusicUITests */,
 				CECDBB4427A7EDF0000677EF /* Products */,
+				AEB49FAD8B884C40DE8630E4 /* Pods */,
+				1D45D11AE8E5AC9B54816041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CECDBB6727A7EDF1000677EF /* Build configuration list for PBXNativeTarget "SweetHomeMusic" */;
 			buildPhases = (
+				BD3C0241A6AAF0CB2E661CE3 /* [CP] Check Pods Manifest.lock */,
 				CECDBB3F27A7EDF0000677EF /* Sources */,
 				CECDBB4027A7EDF0000677EF /* Frameworks */,
 				CECDBB4127A7EDF0000677EF /* Resources */,
+				D9292A31C587C2E17C118760 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE69653127AD45DC00DCCAE3 /* Podfile in Resources */,
 				CECDBB4E27A7EDF1000677EF /* Preview Assets.xcassets in Resources */,
 				CECDBB4B27A7EDF1000677EF /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE69653227AD45DC00DCCAE3 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD3C0241A6AAF0CB2E661CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetHomeMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9292A31C587C2E17C118760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHomeMusic/Pods-SweetHomeMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetHomeMusic/Pods-SweetHomeMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetHomeMusic/Pods-SweetHomeMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CECDBB3F27A7EDF0000677EF /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		CECDBB6827A7EDF1000677EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 671B0726F96403A5B0795C34 /* Pods-SweetHomeMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +518,7 @@
 		};
 		CECDBB6927A7EDF1000677EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A7C96B4CA53260D27FF523 /* Pods-SweetHomeMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
